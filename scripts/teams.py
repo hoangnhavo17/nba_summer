@@ -13,5 +13,5 @@ team_map = {
     for team in nba_teams
 }
 
-with open("../public/teams.json", "w") as f:
+with open("../data/teams.json", "w") as f:
     json.dump(team_map, f, indent=2)
