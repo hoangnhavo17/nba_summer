@@ -33,12 +33,9 @@ for i, div in enumerate(content):
     
     result = tables[3].find_all("tr")[0].text.strip()
 
-    location = tables[4].text.strip()
-
     game = {
         "date": datetime,
         "result": result,
-        "location": location,
         "boxscore_link": boxscore
     }
 
