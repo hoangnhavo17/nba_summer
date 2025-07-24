@@ -1,0 +1,377 @@
+{
+    "1522500001": {
+        "date": "July 10 12:30 PM PDT",
+        "result": "New Orleans Pelicans 91, Minnesota Timberwolves 98",
+        "boxscore_link": "https://www.nba.com/game/nop-vs-min-1522500001/box-score"
+    },
+    "1522500002": {
+        "date": "July 10 2:00 PM PDT",
+        "result": "Cleveland Cavaliers 115, Indiana Pacers 116",
+        "boxscore_link": "https://www.nba.com/game/cle-vs-ind-1522500002/box-score"
+    },
+    "1522500003": {
+        "date": "July 10 2:30 PM PDT",
+        "result": "Oklahoma City Thunder 90, Brooklyn Nets 81",
+        "boxscore_link": "https://www.nba.com/game/okc-vs-bkn-1522500003/box-score"
+    },
+    "1522500004": {
+        "date": "July 10 4:30 PM PDT",
+        "result": "Orlando Magic 81, Sacramento Kings 84",
+        "boxscore_link": "https://www.nba.com/game/orl-vs-sac-1522500004/box-score"
+    },
+    "1522500005": {
+        "date": "July 10 5:00 PM PDT",
+        "result": "Los Angeles Lakers 85, Dallas Mavericks 87",
+        "boxscore_link": "https://www.nba.com/game/lal-vs-dal-1522500005/box-score"
+    },
+    "1522500006": {
+        "date": "July 10 6:30 PM PDT",
+        "result": "Denver Nuggets 89, Milwaukee Bucks 90",
+        "boxscore_link": "https://www.nba.com/game/den-vs-mil-1522500006/box-score"
+    },
+    "1522500007": {
+        "date": "July 10 7:00 PM PDT",
+        "result": "San Antonio Spurs 111, Philadelphia 76ers 70",
+        "boxscore_link": "https://www.nba.com/game/sas-vs-phi-1522500007/box-score"
+    },
+    "1522500008": {
+        "date": "July 11 1:00 PM PDT",
+        "result": "Memphis Grizzlies 78, Boston Celtics 92",
+        "boxscore_link": "https://www.nba.com/game/mem-vs-bos-1522500008/box-score"
+    },
+    "1522500009": {
+        "date": "July 11 1:30 PM PDT",
+        "result": "Atlanta Hawks 105, Miami Heat 98",
+        "boxscore_link": "https://www.nba.com/game/atl-vs-mia-1522500009/box-score"
+    },
+    "1522500010": {
+        "date": "July 11 3:00 PM PDT",
+        "result": "New York Knicks 86, Detroit Pistons 104",
+        "boxscore_link": "https://www.nba.com/game/nyk-vs-det-1522500010/box-score"
+    },
+    "1522500011": {
+        "date": "July 11 4:00 PM PDT",
+        "result": "Utah Jazz 105, Charlotte Hornets 111",
+        "boxscore_link": "https://www.nba.com/game/uta-vs-cha-1522500011/box-score"
+    },
+    "1522500012": {
+        "date": "July 11 5:00 PM PDT",
+        "result": "Chicago Bulls 72, Toronto Raptors 116",
+        "boxscore_link": "https://www.nba.com/game/chi-vs-tor-1522500012/box-score"
+    },
+    "1522500013": {
+        "date": "July 11 6:00 PM PDT",
+        "result": "Washington Wizards 84, Phoenix Suns 103",
+        "boxscore_link": "https://www.nba.com/game/was-vs-phx-1522500013/box-score"
+    },
+    "1522500014": {
+        "date": "July 11 7:00 PM PDT",
+        "result": "Los Angeles Clippers 95, Houston Rockets 92",
+        "boxscore_link": "https://www.nba.com/game/lac-vs-hou-1522500014/box-score"
+    },
+    "1522500015": {
+        "date": "July 11 8:00 PM PDT",
+        "result": "Portland Trail Blazers 106, Golden State Warriors 73",
+        "boxscore_link": "https://www.nba.com/game/por-vs-gsw-1522500015/box-score"
+    },
+    "1522500016": {
+        "date": "July 12 12:30 PM PDT",
+        "result": "Cleveland Cavaliers 93, Milwaukee Bucks 83",
+        "boxscore_link": "https://www.nba.com/game/cle-vs-mil-1522500016/box-score"
+    },
+    "1522500017": {
+        "date": "July 12 1:00 PM PDT",
+        "result": "Dallas Mavericks 69, San Antonio Spurs 76",
+        "boxscore_link": "https://www.nba.com/game/dal-vs-sas-1522500017/box-score"
+    },
+    "1522500018": {
+        "date": "July 12 2:30 PM PDT",
+        "result": "Indiana Pacers 85, Oklahoma City Thunder 104",
+        "boxscore_link": "https://www.nba.com/game/ind-vs-okc-1522500018/box-score"
+    },
+    "1522500019": {
+        "date": "July 12 3:30 PM PDT",
+        "result": "Charlotte Hornets 96, Philadelphia 76ers 94",
+        "boxscore_link": "https://www.nba.com/game/cha-vs-phi-1522500019/box-score"
+    },
+    "1522500020": {
+        "date": "July 12 5:00 PM PDT",
+        "result": "Sacramento Kings 109, Chicago Bulls 92",
+        "boxscore_link": "https://www.nba.com/game/sac-vs-chi-1522500020/box-score"
+    },
+    "1522500021": {
+        "date": "July 12 5:30 PM PDT",
+        "result": "Los Angeles Lakers 94, New Orleans Pelicans 81",
+        "boxscore_link": "https://www.nba.com/game/lal-vs-nop-1522500021/box-score"
+    },
+    "1522500022": {
+        "date": "July 12 7:00 PM PDT",
+        "result": "Minnesota Timberwolves 94, Denver Nuggets 83",
+        "boxscore_link": "https://www.nba.com/game/min-vs-den-1522500022/box-score"
+    },
+    "1522500023": {
+        "date": "July 12 7:30 PM PDT",
+        "result": "Memphis Grizzlies 96, Portland Trail Blazers 86",
+        "boxscore_link": "https://www.nba.com/game/mem-vs-por-1522500023/box-score"
+    },
+    "1522500024": {
+        "date": "July 13 12:30 PM PDT",
+        "result": "Phoenix Suns 80, Atlanta Hawks 98",
+        "boxscore_link": "https://www.nba.com/game/phx-vs-atl-1522500024/box-score"
+    },
+    "1522500025": {
+        "date": "July 13 1:00 PM PDT",
+        "result": "Detroit Pistons 98, Houston Rockets 83",
+        "boxscore_link": "https://www.nba.com/game/det-vs-hou-1522500025/box-score"
+    },
+    "1522500026": {
+        "date": "July 13 2:30 PM PDT",
+        "result": "New York Knicks 81, Boston Celtics 94",
+        "boxscore_link": "https://www.nba.com/game/nyk-vs-bos-1522500026/box-score"
+    },
+    "1522500027": {
+        "date": "July 13 3:00 PM PDT",
+        "result": "Toronto Raptors 89, Orlando Magic 86",
+        "boxscore_link": "https://www.nba.com/game/tor-vs-orl-1522500027/box-score"
+    },
+    "1522500028": {
+        "date": "July 13 4:30 PM PDT",
+        "result": "Miami Heat 72, Cleveland Cavaliers 92",
+        "boxscore_link": "https://www.nba.com/game/mia-vs-cle-1522500028/box-score"
+    },
+    "1522500029": {
+        "date": "July 13 5:00 PM PDT",
+        "result": "Brooklyn Nets 96, Washington Wizards 102",
+        "boxscore_link": "https://www.nba.com/game/bkn-vs-was-1522500029/box-score"
+    },
+    "1522500030": {
+        "date": "July 13 6:30 PM PDT",
+        "result": "Milwaukee Bucks 91, Los Angeles Clippers 106",
+        "boxscore_link": "https://www.nba.com/game/mil-vs-lac-1522500030/box-score"
+    },
+    "1522500031": {
+        "date": "July 13 7:00 PM PDT",
+        "result": "Golden State Warriors 103, Utah Jazz 93",
+        "boxscore_link": "https://www.nba.com/game/gsw-vs-uta-1522500031/box-score"
+    },
+    "1522500032": {
+        "date": "July 14 1:30 PM PDT",
+        "result": "Atlanta Hawks 111, Houston Rockets 108 (OT)",
+        "boxscore_link": "https://www.nba.com/game/atl-vs-hou-1522500032/box-score"
+    },
+    "1522500033": {
+        "date": "July 14 3:00 PM PDT",
+        "result": "Chicago Bulls 114, Indiana Pacers 105",
+        "boxscore_link": "https://www.nba.com/game/chi-vs-ind-1522500033/box-score"
+    },
+    "1522500034": {
+        "date": "July 14 3:30 PM PDT",
+        "result": "Charlotte Hornets 87, Dallas Mavericks 69",
+        "boxscore_link": "https://www.nba.com/game/cha-vs-dal-1522500034/box-score"
+    },
+    "1522500035": {
+        "date": "July 14 5:00 PM PDT",
+        "result": "Boston Celtics 96, Miami Heat 100",
+        "boxscore_link": "https://www.nba.com/game/bos-vs-mia-1522500035/box-score"
+    },
+    "1522500036": {
+        "date": "July 14 5:30 PM PDT",
+        "result": "Utah Jazz 91, San Antonio Spurs 93 (OT)",
+        "boxscore_link": "https://www.nba.com/game/uta-vs-sas-1522500036/box-score"
+    },
+    "1522500037": {
+        "date": "July 14 7:00 PM PDT",
+        "result": "Phoenix Suns 76, Sacramento Kings 94",
+        "boxscore_link": "https://www.nba.com/game/phx-vs-sac-1522500037/box-score"
+    },
+    "1522500038": {
+        "date": "July 14 7:30 PM PDT",
+        "result": "Los Angeles Clippers 67, Los Angeles Lakers 58",
+        "boxscore_link": "https://www.nba.com/game/lac-vs-lal-1522500038/box-score"
+    },
+    "1522500039": {
+        "date": "July 15 1:30 PM PDT",
+        "result": "Minnesota Timberwolves 89, Detroit Pistons 73",
+        "boxscore_link": "https://www.nba.com/game/min-vs-det-1522500039/box-score"
+    },
+    "1522500040": {
+        "date": "July 15 3:00 PM PDT",
+        "result": "Brooklyn Nets 93, New York Knicks 97",
+        "boxscore_link": "https://www.nba.com/game/bkn-vs-nyk-1522500040/box-score"
+    },
+    "1522500041": {
+        "date": "July 15 3:30 PM PDT",
+        "result": "Oklahoma City Thunder 92, Orlando Magic 75",
+        "boxscore_link": "https://www.nba.com/game/okc-vs-orl-1522500041/box-score"
+    },
+    "1522500043": {
+        "date": "July 15 5:30 PM PDT",
+        "result": "Philadelphia 76ers 74, Washington Wizards 58",
+        "boxscore_link": "https://www.nba.com/game/phi-vs-was-1522500043/box-score"
+    },
+    "1522500044": {
+        "date": "July 15 7:00 PM PDT",
+        "result": "Portland Trail Blazers 93, New Orleans Pelicans 87",
+        "boxscore_link": "https://www.nba.com/game/por-vs-nop-1522500044/box-score"
+    },
+    "1522500045": {
+        "date": "July 15 7:30 PM PDT",
+        "result": "Golden State Warriors 96, Memphis Grizzlies 84",
+        "boxscore_link": "https://www.nba.com/game/gsw-vs-mem-1522500045/box-score"
+    },
+    "1522500046": {
+        "date": "July 16 12:30 PM PDT",
+        "result": "Sacramento Kings 94, Cleveland Cavaliers 86",
+        "boxscore_link": "https://www.nba.com/game/sac-vs-cle-1522500046/box-score"
+    },
+    "1522500047": {
+        "date": "July 16 2:00 PM PDT",
+        "result": "Phoenix Suns 85, Minnesota Timberwolves 89",
+        "boxscore_link": "https://www.nba.com/game/phx-vs-min-1522500047/box-score"
+    },
+    "1522500048": {
+        "date": "July 16 2:30 PM PDT",
+        "result": "Milwaukee Bucks 96, Chicago Bulls 102",
+        "boxscore_link": "https://www.nba.com/game/mil-vs-chi-1522500048/box-score"
+    },
+    "1522500049": {
+        "date": "July 16 4:30 PM PDT",
+        "result": "Orlando Magic 90, Brooklyn Nets 94",
+        "boxscore_link": "https://www.nba.com/game/orl-vs-bkn-1522500049/box-score"
+    },
+    "1522500050": {
+        "date": "July 16 5:00 PM PDT",
+        "result": "Dallas Mavericks 82, Philadelphia 76ers 90",
+        "boxscore_link": "https://www.nba.com/game/dal-vs-phi-1522500050/box-score"
+    },
+    "1522500051": {
+        "date": "July 16 6:30 PM PDT",
+        "result": "New Orleans Pelicans 81, Oklahoma City Thunder 95",
+        "boxscore_link": "https://www.nba.com/game/nop-vs-okc-1522500051/box-score"
+    },
+    "1522500052": {
+        "date": "July 16 7:00 PM PDT",
+        "result": "Washington Wizards 76, Utah Jazz 86",
+        "boxscore_link": "https://www.nba.com/game/was-vs-uta-1522500052/box-score"
+    },
+    "1522500053": {
+        "date": "July 17 1:00 PM PDT",
+        "result": "Detroit Pistons 108, Miami Heat 88",
+        "boxscore_link": "https://www.nba.com/game/det-vs-mia-1522500053/box-score"
+    },
+    "1522500054": {
+        "date": "July 17 1:30 PM PDT",
+        "result": "Indiana Pacers 91, New York Knicks 88",
+        "boxscore_link": "https://www.nba.com/game/ind-vs-nyk-1522500054/box-score"
+    },
+    "1522500055": {
+        "date": "July 17 3:00 PM PDT",
+        "result": "Atlanta Hawks 92, Memphis Grizzlies 88",
+        "boxscore_link": "https://www.nba.com/game/atl-vs-mem-1522500055/box-score"
+    },
+    "1522500056": {
+        "date": "July 17 4:00 PM PDT",
+        "result": "San Antonio Spurs 81, Charlotte Hornets 106",
+        "boxscore_link": "https://www.nba.com/game/sas-vs-cha-1522500056/box-score"
+    },
+    "1522500057": {
+        "date": "July 17 5:00 PM PDT",
+        "result": "Houston Rockets 83, Portland Trail Blazers 102",
+        "boxscore_link": "https://www.nba.com/game/hou-vs-por-1522500057"
+    },
+    "1522500058": {
+        "date": "July 17 6:00 PM PDT",
+        "result": "Boston Celtics 87, Los Angeles Lakers 78",
+        "boxscore_link": "https://www.nba.com/game/bos-vs-lal-1522500058"
+    },
+    "1522500059": {
+        "date": "July 17 7:00 PM PDT",
+        "result": "Golden State Warriors 69, Toronto Raptors 81",
+        "boxscore_link": "https://www.nba.com/game/gsw-vs-tor-1522500059"
+    },
+    "1522500060": {
+        "date": "July 17 8:00 PM PDT",
+        "result": "Denver Nuggets 81, Los Angeles Clippers 76",
+        "boxscore_link": "https://www.nba.com/game/den-vs-lac-1522500060"
+    },
+    "1522500061": {
+        "date": "July 18 1:00 PM PDT",
+        "result": "Dallas Mavericks 92, Orlando Magic 69",
+        "boxscore_link": "https://www.nba.com/game/dal-vs-orl-1522500061/box-score"
+    },
+    "1522500062": {
+        "date": "July 18 3:00 PM PDT",
+        "result": "Philadelphia 76ers 87, Brooklyn Nets 83",
+        "boxscore_link": "https://www.nba.com/game/phi-vs-bkn-1522500062/box-score"
+    },
+    "1522500063": {
+        "date": "July 18 4:00 PM PDT",
+        "result": "Miami Heat 93, Milwaukee Bucks 92",
+        "boxscore_link": "https://www.nba.com/game/mia-vs-mil-1522500063/box-score"
+    },
+    "1522500064": {
+        "date": "July 18 5:00 PM PDT",
+        "result": "Utah Jazz 92, Chicago Bulls 105",
+        "boxscore_link": "https://www.nba.com/game/uta-vs-chi-1522500064/box-score"
+    },
+    "1522500065": {
+        "date": "July 18 6:00 PM PDT",
+        "result": "Indiana Pacers 113, New Orleans Pelicans 104",
+        "boxscore_link": "https://www.nba.com/game/ind-vs-nop-1522500065/box-score"
+    },
+    "1522500066": {
+        "date": "July 18 7:00 PM PDT",
+        "result": "Denver Nuggets 106, Los Angeles Lakers 84",
+        "boxscore_link": "https://www.nba.com/game/den-vs-lal-1522500066/box-score"
+    },
+    "1522500067": {
+        "date": "July 19 12:30 PM PDT",
+        "result": "Washington Wizards 94, New York Knicks 85",
+        "boxscore_link": "https://www.nba.com/game/was-vs-nyk-1522500067/box-score"
+    },
+    "1522500068": {
+        "date": "July 19 1:00 PM PDT",
+        "result": "Sacramento Kings 98, Toronto Raptors 88",
+        "boxscore_link": "https://www.nba.com/game/sac-vs-tor-1522500068/box-score"
+    },
+    "1522500069": {
+        "date": "July 19 2:30 PM PDT",
+        "result": "Houston Rockets 104, Minnesota Timberwolves 101",
+        "boxscore_link": "https://www.nba.com/game/hou-vs-min-1522500069/box-score"
+    },
+    "1522500070": {
+        "date": "July 19 3:00 PM PDT",
+        "result": "Charlotte Hornets 109, Oklahoma City Thunder 80",
+        "boxscore_link": "https://www.nba.com/game/cha-vs-okc-1522500070/box-score"
+    },
+    "1522500071": {
+        "date": "July 19 4:30 PM PDT",
+        "result": "Cleveland Cavaliers 71, Golden State Warriors 82",
+        "boxscore_link": "https://www.nba.com/game/cle-vs-gsw-1522500071/box-score"
+    },
+    "1522500072": {
+        "date": "July 19 5:00 PM PDT",
+        "result": "Detroit Pistons 84, San Antonio Spurs 96",
+        "boxscore_link": "https://www.nba.com/game/det-vs-sas-1522500072/box-score"
+    },
+    "1522500073": {
+        "date": "July 19 6:30 PM PDT",
+        "result": "Portland Trail Blazers 87, Phoenix Suns 111",
+        "boxscore_link": "https://www.nba.com/game/por-vs-phx-1522500073/box-score"
+    },
+    "1522500074": {
+        "date": "July 20 3:00 PM PDT",
+        "result": "Atlanta Hawks 80, Boston Celtics 101",
+        "boxscore_link": "https://www.nba.com/game/atl-vs-bos-1522500074/box-score"
+    },
+    "1522500075": {
+        "date": "July 20 5:00 PM PDT",
+        "result": "Memphis Grizzlies 105, Los Angeles Clippers 82",
+        "boxscore_link": "https://www.nba.com/game/mem-vs-lac-1522500075/box-score"
+    },
+    "1522500076": {
+        "date": "July 20 7:00 PM PDT",
+        "result": "Sacramento Kings 78, Charlotte Hornets 83",
+        "boxscore_link": "https://www.nba.com/game/sac-vs-cha-1522500076/box-score"
+    }
+}

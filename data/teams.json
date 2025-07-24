@@ -1,0 +1,182 @@
+{
+  "Atlanta Hawks": {
+    "abbreviation": "ATL",
+    "nickname": "Hawks",
+    "city": "Atlanta",
+    "id": 1610612737
+  },
+  "Boston Celtics": {
+    "abbreviation": "BOS",
+    "nickname": "Celtics",
+    "city": "Boston",
+    "id": 1610612738
+  },
+  "Cleveland Cavaliers": {
+    "abbreviation": "CLE",
+    "nickname": "Cavaliers",
+    "city": "Cleveland",
+    "id": 1610612739
+  },
+  "New Orleans Pelicans": {
+    "abbreviation": "NOP",
+    "nickname": "Pelicans",
+    "city": "New Orleans",
+    "id": 1610612740
+  },
+  "Chicago Bulls": {
+    "abbreviation": "CHI",
+    "nickname": "Bulls",
+    "city": "Chicago",
+    "id": 1610612741
+  },
+  "Dallas Mavericks": {
+    "abbreviation": "DAL",
+    "nickname": "Mavericks",
+    "city": "Dallas",
+    "id": 1610612742
+  },
+  "Denver Nuggets": {
+    "abbreviation": "DEN",
+    "nickname": "Nuggets",
+    "city": "Denver",
+    "id": 1610612743
+  },
+  "Golden State Warriors": {
+    "abbreviation": "GSW",
+    "nickname": "Warriors",
+    "city": "Golden State",
+    "id": 1610612744
+  },
+  "Houston Rockets": {
+    "abbreviation": "HOU",
+    "nickname": "Rockets",
+    "city": "Houston",
+    "id": 1610612745
+  },
+  "Los Angeles Clippers": {
+    "abbreviation": "LAC",
+    "nickname": "Clippers",
+    "city": "Los Angeles",
+    "id": 1610612746
+  },
+  "Los Angeles Lakers": {
+    "abbreviation": "LAL",
+    "nickname": "Lakers",
+    "city": "Los Angeles",
+    "id": 1610612747
+  },
+  "Miami Heat": {
+    "abbreviation": "MIA",
+    "nickname": "Heat",
+    "city": "Miami",
+    "id": 1610612748
+  },
+  "Milwaukee Bucks": {
+    "abbreviation": "MIL",
+    "nickname": "Bucks",
+    "city": "Milwaukee",
+    "id": 1610612749
+  },
+  "Minnesota Timberwolves": {
+    "abbreviation": "MIN",
+    "nickname": "Timberwolves",
+    "city": "Minnesota",
+    "id": 1610612750
+  },
+  "Brooklyn Nets": {
+    "abbreviation": "BKN",
+    "nickname": "Nets",
+    "city": "Brooklyn",
+    "id": 1610612751
+  },
+  "New York Knicks": {
+    "abbreviation": "NYK",
+    "nickname": "Knicks",
+    "city": "New York",
+    "id": 1610612752
+  },
+  "Orlando Magic": {
+    "abbreviation": "ORL",
+    "nickname": "Magic",
+    "city": "Orlando",
+    "id": 1610612753
+  },
+  "Indiana Pacers": {
+    "abbreviation": "IND",
+    "nickname": "Pacers",
+    "city": "Indiana",
+    "id": 1610612754
+  },
+  "Philadelphia 76ers": {
+    "abbreviation": "PHI",
+    "nickname": "76ers",
+    "city": "Philadelphia",
+    "id": 1610612755
+  },
+  "Phoenix Suns": {
+    "abbreviation": "PHX",
+    "nickname": "Suns",
+    "city": "Phoenix",
+    "id": 1610612756
+  },
+  "Portland Trail Blazers": {
+    "abbreviation": "POR",
+    "nickname": "Trail Blazers",
+    "city": "Portland",
+    "id": 1610612757
+  },
+  "Sacramento Kings": {
+    "abbreviation": "SAC",
+    "nickname": "Kings",
+    "city": "Sacramento",
+    "id": 1610612758
+  },
+  "San Antonio Spurs": {
+    "abbreviation": "SAS",
+    "nickname": "Spurs",
+    "city": "San Antonio",
+    "id": 1610612759
+  },
+  "Oklahoma City Thunder": {
+    "abbreviation": "OKC",
+    "nickname": "Thunder",
+    "city": "Oklahoma City",
+    "id": 1610612760
+  },
+  "Toronto Raptors": {
+    "abbreviation": "TOR",
+    "nickname": "Raptors",
+    "city": "Toronto",
+    "id": 1610612761
+  },
+  "Utah Jazz": {
+    "abbreviation": "UTA",
+    "nickname": "Jazz",
+    "city": "Utah",
+    "id": 1610612762
+  },
+  "Memphis Grizzlies": {
+    "abbreviation": "MEM",
+    "nickname": "Grizzlies",
+    "city": "Memphis",
+    "id": 1610612763
+  },
+  "Washington Wizards": {
+    "abbreviation": "WAS",
+    "nickname": "Wizards",
+    "city": "Washington",
+    "id": 1610612764
+  },
+  "Detroit Pistons": {
+    "abbreviation": "DET",
+    "nickname": "Pistons",
+    "city": "Detroit",
+    "id": 1610612765
+  },
+  "Charlotte Hornets": {
+    "abbreviation": "CHA",
+    "nickname": "Hornets",
+    "city": "Charlotte",
+    "id": 1610612766
+  }
+}
