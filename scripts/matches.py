@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import json
+import re
 import requests
 
 with open("../data/teams.json", "r") as f:
@@ -21,7 +22,7 @@ while current:
         content.append(current)
     current = current.find_next_sibling()
 
-games = list()
+games = dict()
 
 for i, div in enumerate(content):
     tables = div.find_all("table")
@@ -39,7 +40,10 @@ for i, div in enumerate(content):
         "boxscore_link": boxscore
     }
 
-    games.append(game)
+    match = re.search(r'(\d{10})', boxscore)
+    game_id = match.group(1) if match else None
 
+    games[game_id] = game
+    
 with open("../data/matches.json", "w") as f:
     json.dump(games, f, indent = 4, ensure_ascii=False)
