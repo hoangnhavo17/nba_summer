@@ -26,3 +26,8 @@ for team_name, team_info in teams.items():
             f.write(response.content)
     except Exception as e:
         print(f"Failed to download logo for {team_name}: {e}")
+
+    team_info['logo'] = f"../data/logos/{nba_abbr}.png"
+
+with open("../data/teams.json", "w") as f:
+    json.dump(teams, f, indent=4)

@@ -28,13 +28,14 @@ for game_id, game in matches.items():
     print(f"Fetching stats for {game_id}...")
 
     driver.get(url)
-    time.sleep(3)
+    time.sleep(5)
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
     tables = soup.select("section.GameBoxscore_gbTableSection__zTOUg")
 
     game_stats = dict()
+
     for table in tables:
         team_name = table.select_one("h2.GameBoxscoreTeamHeader_gbt__b9B6g div")
         if not team_name:
@@ -53,27 +54,30 @@ for game_id, game in matches.items():
                 player = cells[0].get_text(strip=True)
                 continue
 
-            raw_name = cells[0].get_text(strip=True)
-            name_parts = re.findall(r'[A-Z]\.\s?[A-Za-z-]+', raw_name)
-            player_name = name_parts[-1] if len(name_parts) > 1 else raw_name
+            player_span = cells[0].select_one("span.GameBoxscoreTablePlayer_gbpNameFull__cf_sn")
+            player_name = player_span.get_text(strip=True) if player_span else cells[0].get_text(strip=True)
 
-            role_flag = raw_name[-1]
-            starter_roles = {'G', 'F', 'C'}
-            is_starter = role_flag in starter_roles
+            abbr_span = cells[0].select_one("span.GameBoxscoreTablePlayer_gbpNameShort__hjcGB")
+            abbr_name = abbr_span.get_text(strip=True) if abbr_span else cells[0].get_text(strip=True)
+
+            starter_tag = cells[0].select_one("span.GameBoxscoreTablePlayer_gbpPos__KW2Nf")
+            role_text = starter_tag.get_text(strip=True) if starter_tag else ""
+            is_starter = role_text in ["G", "F", "C"]
 
             stats = dict()
 
-            for i, (header, cell) in enumerate(zip(headers, cells)):
+            for header, cell in zip(headers, cells):
                 val = cell.get_text(strip=True)
                 stats[header] = try_parse(val)
 
-            team_stats[player_name] = stats
+            stats["PLAYER"] = player_name
+            team_stats[abbr_name] = stats
 
         game_stats[team_name] = team_stats
 
     all_boxscores[game_id] = game_stats
 
-with open("../data/boxscores.json", "w") as f:
+with open("../data/boxscores.json", "w", encoding='utf-8') as f:
     json.dump(all_boxscores, f, indent = 4, ensure_ascii=False)
 
 driver.quit()
