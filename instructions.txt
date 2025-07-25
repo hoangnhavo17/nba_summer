@@ -6,12 +6,14 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/hoangnhavo17/nba_summer.git
 git push -u origin main --force
 
-
 ### Pull
 
+git init
 git pull origin main
 
 ### Push
 
 git init
-git remote 
+git add .
+git commit -m "Describe your changes here"
+git push 
