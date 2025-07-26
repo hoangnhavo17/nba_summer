@@ -31,8 +31,10 @@ for game_id, teams in boxscores.items():
                 player_summary[player_abbr] = {
                     "full_name": stats['PLAYER'],
                     "team": team_name,
+                    "starter": stats['STARTER'],
                     "games_played": 0,
                     "game_ids": list(),
+                    "total_seconds": 0,
                     "total_stats": defaultdict(int)
                 }
 
@@ -42,28 +44,86 @@ for game_id, teams in boxscores.items():
             for stat, value in stats.items():
                 if stat == "MIN":
                     seconds = parse_min(value)
-                    player_summary[player_abbr]["total_stats"]["MIN"] += seconds
-                if isinstance(value, (int, float)):
+                    player_summary[player_abbr]["total_seconds"] += seconds
+                if isinstance(value, (int, float)) and stat not in ["PLAYER", "MIN", "FG%", "3P%", "FT%"]:
                     player_summary[player_abbr]["total_stats"][stat] += value
 
 final_summary = dict()
 for player_abbr, data in player_summary.items():
     games = data["games_played"]
-    stats = dict(data["total_stats"])
+    total_seconds = data["total_seconds"]
+    avg_seconds = total_seconds / games if games > 0 else 0
+    stats = data["total_stats"]
 
-    total_min_str = format_sec(data["total_stats"]["MIN"])
-    avg_min_str = format_sec(data["total_stats"]["MIN"] / games) if games > 0 else "0:00"
+    total_min_str = format_sec(total_seconds)
+    avg_min_str = format_sec(avg_seconds)
 
     total_stats = {"MIN": total_min_str}
     avg_stats = {"MIN": avg_min_str}
 
-    for stat, value in stats.items():
-        total_stats[stat] = value
-        avg_stats[stat] = value / games if games > 0 else 0
+    fgm = stats["FGM"]
+    fga = stats["FGA"]
+    tpm = stats["3PM"]
+    tpa = stats["3PA"]
+    ftm = stats["FTM"]
+    fta = stats["FTA"]
+
+    def smart_round(value, decimals=1):
+        result = round(value, decimals)
+        return int(result) if result.is_integer() else result
+
+    totals = {
+        "FGM": int(fgm),
+        "FGA": int(fga),
+        "FG%": smart_round((fgm / fga) * 100) if fga > 0 else 0.0,
+        "3PM": int(tpm),
+        "3PA": int(tpa),
+        "3P%": smart_round((tpm / tpa) * 100) if tpa > 0 else 0.0,
+        "FTM": int(ftm),
+        "FTA": int(fta),
+        "FT%": smart_round((ftm / fta) * 100) if fta > 0 else 0.0,
+        "OREB": stats["OREB"],
+        "DREB": stats["DREB"],
+        "REB": stats["REB"],
+        "AST": stats["AST"],
+        "STL": stats["STL"],
+        "BLK": stats["BLK"],
+        "TO": stats["TO"],
+        "PF": stats["PF"],
+        "PTS": stats["PTS"],
+        "+/-": stats["+/-"]
+    }
+
+    total_stats.update(totals)
+
+    avgs = {
+        "FGM": smart_round(fgm / games) if games > 0 else 0,
+        "FGA": smart_round(fga / games) if games > 0 else 0,
+        "FG%": total_stats["FG%"],
+        "3PM": smart_round(tpm / games) if games > 0 else 0,
+        "3PA": smart_round(tpa / games) if games > 0 else 0,
+        "3P%": total_stats["3P%"],
+        "FTM": smart_round(ftm / games) if games > 0 else 0,
+        "FTA": smart_round(fta / games) if games > 0 else 0,
+        "FT%": total_stats["FT%"],
+        "OREB": smart_round(stats["OREB"] / games) if games > 0 else 0,
+        "DREB": smart_round(stats["DREB"] / games) if games > 0 else 0,
+        "REB": smart_round(stats["REB"] / games) if games > 0 else 0,
+        "AST": smart_round(stats["AST"] / games) if games > 0 else 0,
+        "STL": smart_round(stats["STL"] / games) if games > 0 else 0,
+        "BLK": smart_round(stats["BLK"] / games) if games > 0 else 0,
+        "TO": smart_round(stats["TO"] / games) if games > 0 else 0,
+        "PF": smart_round(stats["PF"] / games) if games > 0 else 0,
+        "PTS": smart_round(stats["PTS"] / games) if games > 0 else 0,
+        "+/-": smart_round(stats["+/-"] / games) if games > 0 else 0
+    }
+
+    avg_stats.update(avgs)
 
     summary = {
         "full_name": data["full_name"],
         "team": data["team"],
+        "starter": data["starter"],
         "position": "Unknown",
         "games_played": data["games_played"],
         "game_ids": data["game_ids"],
@@ -99,7 +159,7 @@ def search(query):
     return None
 
 def get_position(url):
-    response = requests.get(url)
+    response = requests.get(url, timeout=10)
     soup = BeautifulSoup(response.content, "html.parser")
     
     infobox = soup.find("table", {"class": "infobox"})

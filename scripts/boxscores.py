@@ -62,15 +62,17 @@ for game_id, game in matches.items():
 
             starter_tag = cells[0].select_one("span.GameBoxscoreTablePlayer_gbpPos__KW2Nf")
             role_text = starter_tag.get_text(strip=True) if starter_tag else ""
-            is_starter = role_text in ["G", "F", "C"]
+            is_starter = True if role_text in ["G", "F", "C"] else False
 
             stats = dict()
+            stats["STARTER"] = is_starter
 
             for header, cell in zip(headers, cells):
                 val = cell.get_text(strip=True)
                 stats[header] = try_parse(val)
 
             stats["PLAYER"] = player_name
+            
             team_stats[abbr_name] = stats
 
         game_stats[team_name] = team_stats
